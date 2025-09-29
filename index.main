@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page with Link</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(135deg, #00c6ff, #0072ff);
+      color: #fff;
+      text-align: center;
+    }
+    header {
+      padding: 80px 20px;
+    }
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 20px;
+    }
+    header p {
+      font-size: 1.2rem;
+      margin-bottom: 30px;
+    }
+    .btn {
+      display: inline-block;
+      background: #fff;
+      color: #0072ff;
+      padding: 15px 30px;
+      border-radius: 30px;
+      font-size: 1.2rem;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+    .btn:hover {
+      background: #f4f4f4;
+    }
+    footer {
+      background: rgba(0,0,0,0.3);
+      padding: 20px;
+      font-size: 0.9rem;
+      margin-top: 50px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to Our Landing Page</h1>
+    <p>Click the button below to visit our partner website.</p>
+    <a href="https://www.google.com" target="_blank" class="btn">Visit Website</a>
+  </header>
+
+  <footer>
+    <p>&copy; 2025 My Company | All Rights Reserved</p>
+  </footer>
+
+</body>
+</html>
